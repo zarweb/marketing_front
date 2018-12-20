@@ -1,0 +1,434 @@
+@import "vars";
+
+@media (max-width: 1500px) {
+  section.pricing {
+    .price-box {
+      width: 100%;
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-family: Lato-Regular;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+
+  header {
+    nav {
+      .nav-item {
+        margin-right: 12px;
+      }
+    }
+  }
+  section.digital-create-marketing {
+    .icons {
+      .digital-item {
+        display: block;
+        text-align: center;
+
+        .text {
+          margin-left: unset;
+
+          h3 {
+            font-family: Lato-Heavy;
+            font-size: 20px;
+            color: #011b43;
+          }
+        }
+
+        .dig-img {
+          width: unset;
+          border-right: none;
+        }
+      }
+    }
+  }
+
+  section.custom-plan {
+    .custom-box {
+      .custom-box-right {
+        button {
+          margin-top: 20px;
+        }
+        p {
+          font-size: 18px;
+        }
+
+        h3 {
+          font-family: Lato-Heavy;
+          font-size: 24px;
+          color: #011b43;
+          width: 100%;
+          text-align: left;
+          margin-bottom: 15px;
+          line-height: unset;
+        }
+      }
+    }
+  }
+
+  section.social-media {
+    .centers {
+      .custom-box-left {
+        p {
+          font-size: 18px;
+        }
+
+        h3 {
+          font-size: 24px;
+          margin-bottom: 24px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  section.redesign {
+
+    .custom-box-left {
+      text-align: center;
+      margin-top: 50px;
+
+      h3 {
+        font-size: 24px;
+        width: 100%;
+      }
+
+      p {
+        font-family: Lato-Regular;
+        font-size: 18px;
+      }
+    }
+
+  }
+
+  section.faq {
+    .faq-box {
+
+      .fax-item {
+        h3 {
+          font-family: Lato-Heavy;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  section.pricing {
+    background-image: unset;
+    height: unset;
+
+    //.price-item {
+    //  ul.list-inline {
+    //    li {
+    //      width: 30%;
+    //    }
+    //  }
+    //}
+
+  }
+  section.header-background {
+    .head-background-wrapp {
+      .title-background {
+        h3 {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .content {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+  div#navbarNav {
+    background: #dc2b3b;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  section.redesign {
+    margin: 100px 0 20px;
+  }
+  section.header-background {
+    .head-background-wrapp {
+      .title-background {
+        h3 {
+          width: 100%;
+          font-size: 34px;
+          text-align: center;
+          line-height: 1.5;
+        }
+      }
+
+      .social {
+        margin-top: 50px;
+
+        ul {
+          text-align: center;
+        }
+      }
+    }
+
+
+  }
+
+  section.pricing {
+    .price-item {
+      ul.list-inline {
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+      }
+      li {
+        margin: 20px 0;
+      }
+    }
+  }
+  section.header-background {
+    .head-background-wrapp {
+      //top: 50%;
+
+
+    }
+  }
+  #services {
+    .icons > div {
+      margin: 0 0 8px 0;
+    }
+  }
+  section.team-more-sales {
+    margin-top: 50px;
+
+    .team-box {
+      top: 100px;
+
+      h2 {
+        font-size: 28px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  section.digital-create-marketing {
+    .icons {
+      flex-direction: column;
+    }
+  }
+  section.seo {
+    margin: 100px 0 50px;
+
+    .seo-box-right {
+      ul {
+        li {
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  section.social-media {
+    .centers {
+      .custom-box-left {
+
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+  }
+  section.faq {
+    .faq-box {
+      > div {
+        padding: 0;
+      }
+
+      width: 100%;
+
+     .fax-item span {
+       display: block;
+       margin:  0 auto;
+     }
+    }
+  }
+  footer {
+    .footer-box {
+      .subcribe {
+
+        input[type=text] {
+          padding: 14px;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        button {
+          padding: 14px;
+          width: 100%;
+        }
+      }
+      .social {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  section.digital-create-marketing {
+    .icons {
+      .digital-item {
+        margin: 2px 0;
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+  }
+  section.custom-plan {
+    margin: 120px 0 50px;
+
+    .custom-box {
+      .custom-box-right {
+        text-align: center;
+      }
+    }
+
+  }
+  section.seo {
+    .title {
+      h3 {
+        font-family: Lato-Heavy;
+        font-size: 24px;
+      }
+    }
+
+    .seo-box-right {
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+
+      ul {
+        li {
+          margin-bottom: 20px;
+        }
+
+      }
+
+    }
+
+  }
+
+  section.pricing {
+    .price-item {
+      ul.list-inline {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+}
+
+
+//section.header-background {
+//  height: 660px;
+//}
+//
+//div#navbarNav {
+//  background: #b80316;
+//  text-align: center;
+//}
+//
+//section.team-more-sales {
+//  height: 600px;
+//
+//  .team-box {
+//    position: absolute;
+//    top: 18%;
+//
+//    h2 {
+//      font-size: 24px;
+//      width: 100%;
+//      padding: 0 20px;
+//    }
+//
+//    p {
+//      color: #fff;
+//      font-size: 18px;
+//      margin: 10px 0;
+//      padding: 0 20px;
+//    }
+//
+//  }
+//}
+//
+//section.social-media {
+//  .social-box {
+//    position: unset;
+//    text-align: center;
+//    bottom: unset;
+//  }
+//
+//}
+//
+//section.faq {
+//  .row.faq-box {
+//    width: 100%;
+//  }
+//}
+//
+//footer {
+//  width: 100%;
+//  min-height: 520px;
+//  background-position: top;
+//  background-repeat: repeat-y;
+//  position: relative;
+//
+//  .footer-box {
+//    text-align: center;
+//
+//    .subcribe {
+//      button {
+//        width: 96%;
+//      }
+//
+//      input[type=text] {
+//        width: 96%;
+//      }
+//
+//    }
+//
+//    ul.menu-footer {
+//      li {
+//        margin-bottom: 0px;
+//
+//      }
+//    }
+//
+//    .social {
+//      margin-top: 50px;
+//      text-align: center;
+//    }
+//  }
+//}

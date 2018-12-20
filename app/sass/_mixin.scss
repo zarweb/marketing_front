@@ -1,0 +1,19 @@
+@mixin button_red() {
+	font-family: Lato-Semibold;
+	font-size: 20px;
+	background: #fff;
+	border-radius: 50px;
+	border: none;
+	background: $red-color;
+	color: #fff;
+	padding: 12px 36px;
+	margin-top: 54px;
+	cursor:pointer;
+	transition: all 0.5s ease-in-out;
+
+	&:hover {
+		background: none;
+		border: 1px solid $red-color;
+		color: $red-color;
+	}
+}
